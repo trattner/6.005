@@ -1,0 +1,25 @@
+Areas of Responsibility[task/subtask/person]:
+ - warmup: sample tests -> plays properly: Arturo
+ - 
+
+Tasks[deadline@midnight/task/time estimate]:
+ - 4/29/16 -- check test samples -- 0.5 hrs
+ - 4/29/16 -- specs for music, datatype definition -- 1 hrs
+ - 5/2/16 -- specs for other classes (wrapper prints header and plays) -- 1 hrs
+ - 5/2/16 -- tests for music -- 2 hrs
+ - 5/4/16 -- tests for entire project -- 2 hrs
+ - 5/4/16 -- create grammar -- 3 hrs
+ - 5/4/16 -- implement music -- 2 hrs
+ - 5/11/16 -- implement player -- 2 hrs
+
+Archive [date/person/task]:
+ - 4/25 - team - team contract
+ - 4/26 - trattner - piece1, piece2.abc
+ - 4/26 - trattner - piece1, piece2 tests -> created sequence player (how to test?)
+ - 4/26 - kretsch - started the Music datatype
+	Music = Note(duration:double, pitch:Pitch)
+        + Rest(duration:double)
+        + Concat(m1:Music, m2:Music)
+        + Together(lines:Music+)
+ - 4/26 - added sleep to thread to make music play
+ 
